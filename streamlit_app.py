@@ -7,7 +7,7 @@ from datetime import datetime
 # STEP 1. 설정
 # --------------------------------------
 API_KEY = "c28b8417-e34d-480e-b57b-7098c92f3bd7"  # ← 꼭 수정할 것!
-BASE_URL = "https://mainnet.helius.xyz/v0/addresses"
+BASE_URL = "https://mainnet.helius.dev/v0/addresses"
 
 st.set_page_config(page_title="Solana Wallet Tracker", layout="wide")
 st.title("🔍 Solana Wallet Tracker")
